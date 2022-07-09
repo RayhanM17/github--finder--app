@@ -1,7 +1,7 @@
-import {FaCode, FaCodepen, FaStore, FaUserFriends, FaUsers} from 'react-icons/fa';
+import {FaCodepen, FaStore, FaUserFriends, FaUsers} from 'react-icons/fa';
 import {useEffect, useContext} from 'react';
 import {Link} from 'react-router-dom';
-import Spinner from '../components/layout/Spinner';
+import Spinner from '../components/layout/spinner';
 import RepoList from '../components/repos/RepoList';
 import GithubContext from '../context/github/GithubContext';
 import {useParams} from 'react-router-dom';
